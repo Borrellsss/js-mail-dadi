@@ -1,0 +1,35 @@
+/* *RESET* */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *COMMON* */
+body {
+    font-family: sans-serif;
+    background-color: #014b26;
+}
+
+/* *START BUTTON* */
+#start-game-btn {
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    border-radius: 1rem;
+    background-color: #6c1022;
+}
+#start-game-btn:hover {
+    cursor: pointer;
+    border: 4px ridge #6c1022;
+    background-color: #c30e3b;
+    box-shadow: 0 0 20px 4px #c30e3b;
+}
+#start-game-btn:active {
+    border-style: inset;
+}
